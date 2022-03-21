@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pokedex | Launch X</title>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="manifest" href="images/site.webmanifest">
+        <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#2b5797">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="estilos.css" rel="stylesheet" >
+        
+    </head>
+    <body>
+        <header>
+            <div class="container-nav">
+                <div></div>
+                <div class="img">
+                   <img src="./images/logo-pokedex.png" alt="" width="100%">
+                </div>
+                <div></div>
+            </div>
+        </header>
+        <h1 class="titulo">Pokedex Launch X</h1>
+        <h6 class="sub-title">Escribe tu pokemon Favorito</h6>
+
+        <div class="contenedor">
+            
+        <form action="" onsubmit="searchPokemon(event)">
+            <input type="text" name="pokemon" autocomplete="off">
+        </form>
+        
+        <div data-poke-card class="poke-card">
+            <div data-poke-name>Pokedex</div>
+            <div data-poke-img-container class="img-container">
+                <img data-poke-img class="poke-img" src="./images/pokedexYehhiBhii.png"/>
+            </div>
+            <div data-poke-id></div>
+            <div data-poke-types class="poke-types"></div>
+            <div data-poke-stats class="poke-stats"></div>
+        </div>
+    </div>
+          
+        <footer>
+           
+            <script src="main.js"></script>
+        </footer>       
+    </body>
+</html>
